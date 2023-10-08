@@ -1,11 +1,9 @@
 import { styled } from "styled-components";
 
 export const FinalContainer = styled.div`
-  @media only screen and (min-width: 320px) {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   @media only screen and (min-width: 768px) {
     height: 0;
   }
@@ -28,15 +26,13 @@ export const Image = styled.img`
 `;
 
 export const Title = styled.div`
-  @media only screen and (min-width: 320px) {
-    font-family: "Staatliches", cursive;
-    text-transform: capitalize;
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-    width: 50%;
-    padding-left: 10rem;
-  }
+  font-family: "Staatliches", cursive;
+  text-transform: capitalize;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  width: 50%;
+  padding-left: 10rem;
   @media only screen and (min-width: 415px) {
     padding-left: 0rem;
   }
@@ -57,13 +53,11 @@ export const Description = styled.div`
 `;
 
 export const Social = styled.div`
-  @media only screen and (min-width: 320px) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 6.25rem;
-    padding-inline: 10rem;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.25rem;
+  padding-inline: 10rem;
   @media only screen and (min-width: 768px) {
     padding-inline: 5rem;
   }
