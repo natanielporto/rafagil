@@ -3,11 +3,10 @@ import { GreenCard } from "../GreenCard";
 import * as S from "./styles";
 
 const greenText = [
-  "Uma avaliação abrangente de suas habilidades e objetivos de carreira.",
-  "Orientação especializada na elaboração de currículos e perfis no LinkedIn para se destacar.",
-  "Treinamento personalizado para brilhar em entrevistas e apresentações pessoais.",
-  "Um plano estratégico para alcançar seus objetivos de carreira, seja você um iniciante ou um profissional experiente.",
-  "Assistência dedicada na busca por oportunidades de recolocação em empresas de tecnologia líderes.",
+  "Enfrente os desafios de elaborar seu currículo e perfil no LinkedIn.",
+  "Adquira habilidades para se destacar em apresentações pessoais e entrevistas.",
+  "Procure uma oportunidade de recolocação ou mude de emprego.",
+  "Para quem tem ambição e almeja reconhecimento no mercado de trabalho.",
 ];
 
 export const CarreerBoostSlice = () => {

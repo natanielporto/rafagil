@@ -1,4 +1,4 @@
-import Photo from "../../assets/photo1.png";
+import Photo from "../../assets/photo1.jpg";
 import * as S from "./styles";
 
 export const ValueSlice = () => {
@@ -9,11 +9,12 @@ export const ValueSlice = () => {
       </S.ImageContainer>
       <S.TextContainer>
         <S.TopText>
-          Ajudamos você a se concentrar nas coisas importantes para expandir sua
-          carreira
+          Ajudamos você a se concentrar no que é realmente importante para
+          expandir sua carreira:
         </S.TopText>
         <S.BottomText>
-          Este bloco de texto é para uma breve visão geral da empresa.
+          Um perfil traçado você já tem. Agora vamos em busca do seu melhor
+          perfil profissional possível.
         </S.BottomText>
       </S.TextContainer>
     </S.ValueContainer>

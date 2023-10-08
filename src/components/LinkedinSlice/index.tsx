@@ -3,10 +3,10 @@ import { GreenCard } from "../GreenCard";
 import * as S from "./styles";
 
 const greenText = [
-  "Destaque suas habilidades, conquistas e experiências para impressionar recrutadores e empregadores.",
-  "Te ensino a lapidar suas habilidades e conhecimentos para atrair oportunidades que combinem com seu perfil.",
-  "Esteja preparado para brilhar em entrevistas, com dicas personalizadas e treinamento para apresentações pessoais.",
-  "Este serviço é perfeito para você, que busca ascensão profissional, recolocação ou a mudança de emprego desejada.",
+  "As palavras-chave que mais interessam na hora do recrutamento.",
+  "Como capitalizar suas experiências e mostrar o seu melhor lado em seu perfil.",
+  "Chame a atenção de quem realmente importa com o currículo certo, feito para o momento certo.",
+  "Aprenda a ser a sua melhor versão para encontrar o melhor trabalho desejado.",
 ];
 
 export const LinkedinSlice = () => {

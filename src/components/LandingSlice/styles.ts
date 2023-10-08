@@ -31,7 +31,7 @@ export const MainTitle = styled.span`
   font-size: 3.5rem;
   @media only screen and (min-width: 821px) {
     margin-right: 0rem;
-    width: 70%;
+    width: 60%;
   }
 `;
 

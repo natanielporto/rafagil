@@ -6,7 +6,7 @@ export const WorldSlice = () => {
       <S.TextContainer>
         <S.Title>Lugares que alcançamos</S.Title>
         <S.Description>
-          Recolocação de candidatos pelo mundo. Canadá, EUA, Portugal, entre
+          Recolocação de candidatos pelo mundo: Canadá, EUA, Portugal, entre
           outros.
         </S.Description>
       </S.TextContainer>

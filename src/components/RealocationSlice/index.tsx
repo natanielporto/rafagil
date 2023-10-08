@@ -17,7 +17,7 @@ export const RelocationSlice = () => {
         orientation="left"
         title="plano de recolocação"
         cta="Inscreva-se agora"
-        mainInfo="Descubra as estratégias essenciais para sua recolocação profissional."
+        mainInfo="Descubra as técnicas essenciais para sua recolocação profissional."
         description="Domine as estratégias necessárias para a sua recolocação e crie um plano de carreira sólido que torne o seu CV altamente desejado no mercado de trabalho."
       />
       <GreenCard description={greenText} />
