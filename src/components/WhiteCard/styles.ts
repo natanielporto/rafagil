@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   max-width: 60%;
   height: 100vh;
+  @media only screen and (min-width: 360px) {
+    width: 100vw;
+  }
 `;
 
 export const CardContainer = styled.div<{ orientation: "left" | "right" }>`
@@ -20,8 +23,9 @@ export const CardContainer = styled.div<{ orientation: "left" | "right" }>`
     `
     margin-right: 0;
   `}
-  @media only screen and (min-width: 375px) {
+  @media only screen and (min-width: 360px) {
     width: 100%;
+    margin: 0;
   }
 `;
 
@@ -30,7 +34,7 @@ export const Title = styled.div`
   text-transform: capitalize;
   font-size: 4rem;
   margin-bottom: 3rem;
-  @media only screen and (min-width: 375px) {
+  @media only screen and (min-width: 360px) {
     margin-bottom: 1rem;
   }
   @media only screen and (min-width: 415px) {
@@ -54,7 +58,7 @@ export const CTA = styled.div`
     margin-bottom: 4rem;
   }
 
-  @media only screen and (min-width: 375px) {
+  @media only screen and (min-width: 360px) {
     font-size: 3.5rem;
     border-radius: 60px;
     margin-bottom: 1rem;
@@ -65,7 +69,7 @@ export const MainInfo = styled.div`
   font-size: 2.65rem;
   width: 80%;
   margin-bottom: 3rem;
-  @media only screen and (min-width: 375px) {
+  @media only screen and (min-width: 360px) {
     margin-bottom: 2rem;
   }
   @media only screen and (min-width: 415px) {
@@ -78,7 +82,7 @@ export const Description = styled.div`
   width: 75%;
   margin-bottom: 2rem;
 
-  @media only screen and (min-width: 375px) {
+  @media only screen and (min-width: 360px) {
     width: 100%;
     font-size: 2rem;
   }

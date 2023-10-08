@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const TestimonialContainer = styled.div`
   height: 100vh;
+  @media only screen and (min-width: 360px) {
+    height: 110vh;
+  }
 `;
 
 export const Container = styled.div`

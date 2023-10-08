@@ -14,7 +14,9 @@ export const FinalSlice = () => {
         <S.Title>Vamos trabalhar, acredito em você!</S.Title>
       </S.TextContainer>
       <S.Social>
+        {/* <S.LogoWrapper> */}
         <S.Logo src={Logo} alt="" />
+        {/* </S.LogoWrapper> */}
         <S.Description>
           <span>Tel. (12)3456-7890</span>
           <span>e-mail: rafagil@gmail.com</span>
