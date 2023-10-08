@@ -20,9 +20,11 @@ export const MainTitle = styled.div`
   text-transform: capitalize;
   font-size: 4rem;
   margin-top: 4rem;
-  margin-bottom: 5rem;
   color: ${(props) => props.theme.tertiary};
   text-align: center;
+  @media only screen and (min-width: 821px) {
+    margin-bottom: 5rem;
+  }
 `;
 
 export const Phrase = styled.div`

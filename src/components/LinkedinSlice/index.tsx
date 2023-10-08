@@ -2,10 +2,17 @@ import { WhiteCard } from "../WhiteCard";
 import { GreenCard } from "../GreenCard";
 import * as S from "./styles";
 
+const greenText = [
+  "Destaque suas habilidades, conquistas e experiências para impressionar recrutadores e empregadores.",
+  "Te ensino a lapidar suas habilidades e conhecimentos para atrair oportunidades que combinem com seu perfil.",
+  "Esteja preparado para brilhar em entrevistas, com dicas personalizadas e treinamento para apresentações pessoais.",
+  "Este serviço é perfeito para você, que busca ascensão profissional, recolocação ou a mudança de emprego desejada.",
+];
+
 export const LinkedinSlice = () => {
   return (
     <S.RelocationContainer>
-      <GreenCard description="texto falando um pouco sobre o plano do serviço" />
+      <GreenCard description={greenText} />
       <WhiteCard
         orientation="right"
         title="upgrade no seu LinkedIn"

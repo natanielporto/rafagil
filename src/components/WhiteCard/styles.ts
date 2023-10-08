@@ -6,7 +6,6 @@ export const Wrapper = styled.div`
 `;
 
 export const CardContainer = styled.div<{ orientation: "left" | "right" }>`
-  /* width: 60%; */
   background-color: ${(props) => props.theme.tertiaryBg};
   padding: 5rem;
   height: calc(90vh);
@@ -27,7 +26,10 @@ export const Title = styled.div`
   font-family: "Staatliches", cursive;
   text-transform: capitalize;
   font-size: 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  @media only screen and (min-width: 415px) {
+    margin-bottom: 2rem;
+  }
 `;
 export const CTA = styled.div`
   padding: 12px 24px;
@@ -37,13 +39,23 @@ export const CTA = styled.div`
   font-size: 1.5rem;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  @media only screen and (min-width: 415px) {
+    margin-bottom: 2rem;
+  }
+  @media only screen and (min-width: 821px) {
+    margin-bottom: 4rem;
+  }
 `;
 export const MainInfo = styled.div`
   font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2.65rem;
   width: 80%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  @media only screen and (min-width: 415px) {
+    margin-bottom: 2rem;
+  }
 `;
 export const Description = styled.div`
   font-family: "Bricolage Grotesque", sans-serif;

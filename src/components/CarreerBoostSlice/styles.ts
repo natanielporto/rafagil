@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const RelocationContainer = styled.div`
-  display: flex;
-  gap: 1rem;
+  @media only screen and (min-width: 415px) {
+    display: flex;
+    gap: 1rem;
+  }
 `;

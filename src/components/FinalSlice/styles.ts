@@ -29,6 +29,10 @@ export const Title = styled.div`
   margin-bottom: 2rem;
   margin-top: 3rem;
   width: 50%;
+  padding-left: 10rem;
+  @media only screen and (min-width: 415px) {
+    padding-left: 0rem;
+  }
 `;
 
 export const Description = styled.div`
@@ -45,6 +49,10 @@ export const Social = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 100px;
+  padding-inline: 10rem;
+  @media only screen and (min-width: 415px) {
+    padding-inline: 0rem;
+  }
 `;
 export const Logo = styled.img`
   transform: scale(0.6);

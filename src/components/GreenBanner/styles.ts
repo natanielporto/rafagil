@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  max-width: 100%;
-  height: 100vh;
-  padding-top: 1rem;
+  width: 100%;
+  display: inline-block;
+  @media only screen and (min-width: 821px) {
+    max-width: 100%;
+    height: 100vh;
+    padding-top: 1rem;
+  }
 `;
 
 export const CardContainer = styled.div`
@@ -33,6 +37,7 @@ export const CTA = styled.div`
   border-radius: 30px;
   margin-bottom: 2rem;
   font-weight: bold;
+  cursor: pointer;
 `;
 
 export const MainInfo = styled.div`

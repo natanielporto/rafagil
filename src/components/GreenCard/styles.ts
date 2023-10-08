@@ -5,11 +5,14 @@ export const Wrapper = styled.div`
   height: 100vh;
 `;
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.ul`
   background-color: ${(props) => props.theme.secondaryBg};
-  padding: 5rem;
+  padding: 0 5rem;
   height: calc(90vh);
   margin-top: 2.5rem;
   font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;

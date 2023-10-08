@@ -2,10 +2,18 @@ import { WhiteCard } from "../WhiteCard";
 import { GreenCard } from "../GreenCard";
 import * as S from "./styles";
 
+const greenText = [
+  "Uma avaliação abrangente de suas habilidades e objetivos de carreira.",
+  "Orientação especializada na elaboração de currículos e perfis no LinkedIn para se destacar.",
+  "Treinamento personalizado para brilhar em entrevistas e apresentações pessoais.",
+  "Um plano estratégico para alcançar seus objetivos de carreira, seja você um iniciante ou um profissional experiente.",
+  "Assistência dedicada na busca por oportunidades de recolocação em empresas de tecnologia líderes.",
+];
+
 export const CarreerBoostSlice = () => {
   return (
     <S.RelocationContainer>
-      <GreenCard description="texto falando um pouco sobre o plano do serviço" />
+      <GreenCard description={greenText} />
       <WhiteCard
         orientation="right"
         title="acelerador de carreira"

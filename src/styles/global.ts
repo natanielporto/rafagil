@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   };
 
   body {
-    max-width: 80rem;
+    width: 80rem;
     background-color: #00092e;
     color: #00092e;
     margin: auto;
