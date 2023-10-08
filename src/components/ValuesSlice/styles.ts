@@ -28,6 +28,9 @@ export const TopText = styled.div`
   font-size: 2rem;
   padding-bottom: 1rem;
   margin-bottom: 7rem;
+  @media only screen and (min-width: 1024px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const BottomText = styled.div`

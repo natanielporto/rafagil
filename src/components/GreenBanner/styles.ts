@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   display: inline-block;
-  @media only screen and (min-width: 821px) {
+  @media only screen and (min-width: 820px) {
     max-width: 100%;
     height: 100vh;
     padding-top: 1rem;
@@ -26,6 +26,9 @@ export const Title = styled.div`
   text-transform: capitalize;
   font-size: 4rem;
   /* margin-bottom: 2rem; */
+  @media only screen and (min-width: 1024px) {
+    font-size: 3rem;
+  }
 `;
 
 export const CTA = styled.div`
@@ -38,6 +41,9 @@ export const CTA = styled.div`
   margin-bottom: 2rem;
   font-weight: bold;
   cursor: pointer;
+  @media only screen and (min-width: 1024px) {
+    font-size: 2rem;
+  }
 `;
 
 export const MainInfo = styled.div`
@@ -45,6 +51,9 @@ export const MainInfo = styled.div`
   font-family: "Bricolage Grotesque", sans-serif;
   text-align: center;
   margin-bottom: 2rem;
+  @media only screen and (min-width: 1024px) {
+    font-size: 2rem;
+  }
 `;
 
 export const Description = styled.div`
@@ -52,4 +61,7 @@ export const Description = styled.div`
   margin-bottom: 2rem;
   font-size: 2rem;
   text-align: center;
+  @media only screen and (min-width: 1024px) {
+    font-size: 1.5rem;
+  }
 `;

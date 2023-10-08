@@ -6,6 +6,9 @@ export const TestimonialContainer = styled.div`
   @media only screen and (min-width: 768px) {
     height: 100vh;
   }
+  @media only screen and (min-width: 1024px) {
+    height: 130vh;
+  }
 `;
 
 export const Container = styled.div`

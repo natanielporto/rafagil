@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  /* min-width: calc(20% - 0.5rem); */
+  min-width: calc(40% - 0.5rem);
   height: 100vh;
 `;
 
@@ -18,5 +18,9 @@ export const CardContainer = styled.ul`
 
   @media only screen and (min-width: 768px) {
     font-size: 2rem;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 1.5rem;
   }
 `;

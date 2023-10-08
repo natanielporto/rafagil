@@ -31,6 +31,9 @@ export const Title = styled.div`
   font-size: 4rem;
   margin-bottom: 2rem;
   margin-top: 4rem;
+  @media only screen and (min-width: 1024px) {
+    font-size: 3rem;
+  }
 `;
 
 export const Description = styled.div`
@@ -39,4 +42,7 @@ export const Description = styled.div`
   width: 70%;
   margin-bottom: 2rem;
   text-align: center;
+  @media only screen and (min-width: 1024px) {
+    font-size: 2rem;
+  }
 `;
