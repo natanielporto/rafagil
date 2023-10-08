@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const TestimonialContainer = styled.div`
-  height: 100vh;
-  @media only screen and (min-width: 360px) {
-    height: 110vh;
+  height: 110vh;
+
+  @media only screen and (min-width: 768px) {
+    height: 100vh;
   }
 `;
 
@@ -25,7 +26,7 @@ export const MainTitle = styled.div`
   margin-top: 4rem;
   color: ${(props) => props.theme.tertiary};
   text-align: center;
-  @media only screen and (min-width: 821px) {
+  @media only screen and (min-width: 768px) {
     margin-bottom: 5rem;
   }
 `;
@@ -39,6 +40,7 @@ export const Phrase = styled.div`
   flex-direction: column;
   justify-content: space-between;
   height: 500px;
+  font-size: 1.5rem;
 `;
 
 export const Icon = styled.div`
@@ -50,7 +52,7 @@ export const Title = styled.div`
 `;
 export const Author = styled.div`
   font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
 `;
 export const Company = styled.div`
   font-family: "Bricolage Grotesque", sans-serif;

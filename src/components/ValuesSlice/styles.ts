@@ -25,8 +25,8 @@ export const TextContainer = styled.div`
 export const TopText = styled.div`
   font-family: "Bricolage Grotesque", sans-serif;
   border-bottom: 1px solid ${(props) => props.theme.primary};
-  font-size: 1.5rem;
-  padding-bottom: 3rem;
+  font-size: 2rem;
+  padding-bottom: 1rem;
   margin-bottom: 7rem;
 `;
 

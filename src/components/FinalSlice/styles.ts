@@ -4,6 +4,9 @@ export const FinalContainer = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+  @media only screen and (min-width: 768px) {
+    height: 0;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -33,6 +36,9 @@ export const Title = styled.div`
   @media only screen and (min-width: 415px) {
     padding-left: 0rem;
   }
+  @media only screen and (min-width: 768px) {
+    padding-left: 5rem;
+  }
 `;
 
 export const Description = styled.div`
@@ -41,20 +47,23 @@ export const Description = styled.div`
   margin-bottom: 2rem;
   color: ${(props) => props.theme.secondary};
   display: flex;
+  font-size: 2.5rem;
   flex-direction: column;
+  text-align: end;
 `;
 
 export const Social = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 6.25rem;
   padding-inline: 10rem;
-  @media only screen and (min-width: 415px) {
-    padding-inline: 0rem;
+  @media only screen and (min-width: 768px) {
+    padding-inline: 5rem;
   }
 `;
 export const Logo = styled.img`
-  transform: scale(0.6);
-  margin-left: -200px;
+  transform: scale(0.3);
+  margin-left: -12.5rem;
+  padding-bottom: 12.5rem;
 `;

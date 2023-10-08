@@ -4,9 +4,9 @@ import * as S from "./styles";
 
 const greenText = [
   "Enfrente os desafios de elaborar seu currículo e perfil no LinkedIn.",
-  "Adquira habilidades para se destacar em apresentações pessoais e entrevistas.",
+  "Adquira habilidades para se destacar em apresentações e entrevistas.",
   "Procure uma oportunidade de recolocação ou mude de emprego.",
-  "Para quem tem ambição e almeja reconhecimento no mercado de trabalho.",
+  "Para quem tem ambição e almeja reconhecimento no mercado.",
 ];
 
 export const CarreerBoostSlice = () => {
