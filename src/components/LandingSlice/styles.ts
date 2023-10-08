@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   flex-direction: column-reverse;
   position: relative;
   display: flex;
-
   @media only screen and (min-width: 768px) {
     display: flex;
     flex-direction: row;
@@ -22,7 +21,6 @@ export const Wrapper = styled.div`
 export const LeftContainer = styled.div`
   width: 100%;
   height: 300px;
-
   @media only screen and (min-width: 768px) {
     width: 50%;
   }

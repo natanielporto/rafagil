@@ -29,7 +29,7 @@ export const TestimonialSlice = () => {
         <S.MainTitle>O que os clientes dizem sobre nós</S.MainTitle>
         <S.PhraseContainer>
           {testimonials.map((test) => (
-            <S.Phrase>
+            <S.Phrase key={test.author}>
               <S.Icon>
                 <BiSolidQuoteLeft size={54} color="#4ed107" />
               </S.Icon>
