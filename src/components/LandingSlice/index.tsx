@@ -1,5 +1,5 @@
 import Photo from "../../assets/photo.jpg";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/rafa-gil-logo-white.png";
 import * as S from "./styles";
 
 export const LandingSlice = () => {
