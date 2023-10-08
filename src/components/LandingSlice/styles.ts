@@ -49,6 +49,7 @@ export const Logo = styled.img`
   }
   @media only screen and (min-width: 1281px) {
     left: 460px;
+    top: 20px;
   }
 `;
 
