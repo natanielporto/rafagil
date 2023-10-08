@@ -1,4 +1,3 @@
-import React from "react";
 import Photo from "../../assets/photo1.png";
 import * as S from "./styles";
 

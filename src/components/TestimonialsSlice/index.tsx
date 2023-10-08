@@ -1,4 +1,3 @@
-import React from "react";
 import { BiSolidQuoteLeft } from "react-icons/bi";
 import * as S from "./styles";
 
