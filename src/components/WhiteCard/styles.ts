@@ -20,6 +20,9 @@ export const CardContainer = styled.div<{ orientation: "left" | "right" }>`
     `
     margin-right: 0;
   `}
+  @media only screen and (min-width: 375px) {
+    width: 100%;
+  }
 `;
 
 export const Title = styled.div`
@@ -27,6 +30,9 @@ export const Title = styled.div`
   text-transform: capitalize;
   font-size: 4rem;
   margin-bottom: 3rem;
+  @media only screen and (min-width: 375px) {
+    margin-bottom: 1rem;
+  }
   @media only screen and (min-width: 415px) {
     margin-bottom: 2rem;
   }
@@ -47,12 +53,21 @@ export const CTA = styled.div`
   @media only screen and (min-width: 821px) {
     margin-bottom: 4rem;
   }
+
+  @media only screen and (min-width: 375px) {
+    font-size: 3.5rem;
+    border-radius: 60px;
+    margin-bottom: 1rem;
+  }
 `;
 export const MainInfo = styled.div`
   font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2.65rem;
   width: 80%;
   margin-bottom: 3rem;
+  @media only screen and (min-width: 375px) {
+    margin-bottom: 2rem;
+  }
   @media only screen and (min-width: 415px) {
     margin-bottom: 2rem;
   }
@@ -62,4 +77,9 @@ export const Description = styled.div`
   font-size: 1.5rem;
   width: 75%;
   margin-bottom: 2rem;
+
+  @media only screen and (min-width: 375px) {
+    width: 100%;
+    font-size: 2rem;
+  }
 `;

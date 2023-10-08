@@ -29,10 +29,12 @@ export const LeftContainer = styled.div`
 export const Logo = styled.img`
   margin-right: 10rem;
   @media only screen and (min-width: 375px) {
-    transform: scale(0.3);
+    transform: scale(0.5);
     position: absolute;
+    top: -600px;
     left: 300px;
-    margin-bottom: 80px;
+    /* left: 300px;
+    margin-bottom: 80px; */
   }
   @media only screen and (min-width: 821px) {
     transform: scale(0.6);
@@ -50,8 +52,8 @@ export const MainTitle = styled.span`
   @media only screen and (min-width: 375px) {
     position: absolute;
     left: 120px;
-    width: 150%;
-    font-size: 4.5rem;
+    width: 400%;
+    font-size: 5.5rem;
   }
   @media only screen and (min-width: 821px) {
     margin-right: 0rem;
