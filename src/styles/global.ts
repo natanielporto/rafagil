@@ -12,5 +12,8 @@ export const GlobalStyle = createGlobalStyle`
     color: #00092e;
     margin: auto;
     height: 100vh;
+    width: 100%;
+    max-width: 1260px;
+    padding: 0 1rem;
   };
 `;
