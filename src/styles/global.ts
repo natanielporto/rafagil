@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   };
 
   body {
-    min-width: 80rem;
+    /* min-width: 80rem; */
     background-color: #00092e;
     color: #00092e;
     margin: auto;

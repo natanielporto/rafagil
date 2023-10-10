@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const RelocationContainer = styled.div`
-  @media only screen and (min-width: 415px) {
-    display: flex;
-    gap: 1rem;
-  }
+    display: grid;
+    grid-template-rows: 1fr;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
 `;
