@@ -57,7 +57,7 @@ export const Content = styled.div`
 
 export const Image = styled.div`
   margin-top: 0.5rem;
-  background: url(${Photo}) no-repeat center;
+  background: url(${Photo}) no-repeat top;
   background-size: cover;
   height: 100vh;
 
