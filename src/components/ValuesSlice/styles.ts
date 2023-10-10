@@ -40,7 +40,7 @@ export const BottomText = styled.div`
 export const Background = styled.div`
   flex: 1;
 
-  background: url(${Photo}) no-repeat center;
+  background: url(${Photo}) no-repeat top;
   background-size: cover;
 `;
 
