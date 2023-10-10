@@ -8,7 +8,6 @@ export const GreenCard = ({ description }: { description: string[] }) => {
           <li key={desc}>{desc}</li>
         ))}
       </S.CardContainer>
-      ;
     </S.Wrapper>
   );
 };

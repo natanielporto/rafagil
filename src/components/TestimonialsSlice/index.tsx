@@ -10,7 +10,7 @@ export const TestimonialSlice = () => {
         "Aumentei a credibilidade do meu CV e em poucos dias consegui o meu tão esperado SIM!",
     },
     {
-      author: "Maximiliano Gomes,",
+      author: "Maximiliano Gomes",
       company: "Aero Verde Turismo",
       title:
         "Aumentei a credibilidade do meu CV e em poucos dias consegui o meu tão esperado SIM!",
@@ -25,8 +25,8 @@ export const TestimonialSlice = () => {
 
   return (
     <S.TestimonialContainer>
+      <S.MainTitle>O que os clientes dizem sobre nós</S.MainTitle>
       <S.Container>
-        <S.MainTitle>O que os clientes dizem sobre nós</S.MainTitle>
         <S.PhraseContainer>
           {testimonials.map((test) => (
             <S.Phrase key={test.author}>
@@ -34,10 +34,10 @@ export const TestimonialSlice = () => {
                 <BiSolidQuoteLeft size={54} color="#4ed107" />
               </S.Icon>
               <S.Title>{test.title}</S.Title>
-              <div>
+              <S.Who>
                 <S.Author> - {test.author},</S.Author>
                 <S.Company>{test.company}</S.Company>
-              </div>
+              </S.Who>
             </S.Phrase>
           ))}
         </S.PhraseContainer>
