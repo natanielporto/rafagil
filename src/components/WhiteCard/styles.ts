@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
-
 export const CardContainer = styled.div<{ orientation: "left" | "right" }>`
   background-color: ${(props) => props.theme.tertiaryBg};
-  padding: 1rem;
+  padding: 2rem;
   ${({ orientation }) =>
     orientation === "left" &&
     `

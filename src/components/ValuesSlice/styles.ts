@@ -15,6 +15,9 @@ export const TextContainer = styled.div`
   height: 100%;
   background-color: ${(props) => props.theme.secondaryBg};
   padding: 5rem;
+  @media (min-width: 280px) {
+    padding: 4rem;
+  }
 `;
 
 export const TopText = styled.div`
@@ -35,6 +38,12 @@ export const BottomText = styled.div`
   font-family: "Staatliches", cursive;
   font-size: 1.75rem;
   line-height: 1.25;
+  @media (min-width: 280px) {
+    font-size: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 1.75rem;
+  }
 `;
 
 export const Background = styled.div`
@@ -42,6 +51,13 @@ export const Background = styled.div`
 
   background: url(${Photo}) no-repeat top;
   background-size: cover;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+  @media (min-width: 1024px) {
+    display: inherit;
+  }
 `;
 
 export const Content = styled.div`
@@ -53,7 +69,7 @@ export const Content = styled.div`
   width: 100%;
   max-width: 700px;
   overflow: hidden;
-`
+`;
 
 export const Image = styled.div`
   margin-top: 0.5rem;
@@ -61,7 +77,13 @@ export const Image = styled.div`
   background-size: cover;
   height: 100vh;
 
+  @media (min-width: 280px) {
+    display: none;
+  }
+  @media (min-width: 360px) {
+    display: inherit;
+  }
   @media screen and (min-width: 992px) {
     display: none;
   }
-`
+`;
